@@ -1,0 +1,35 @@
+<!--
+	id is a UUID that must be unique for each mod. https://www.uuidgenerator.net/version4
+	version is the semantic version number of this plugin, mod, or both.  Up to you.
+	name should be replaced with the displayed name of your mod or plugin.
+	license should be a SPDX license ID.  I like MIT, personally. https://spdx.org/licenses/
+	mainClass MUST BE SET TO THE FULL CLASSPATH+CLASSNAME OF YOUR BASEPLUGIN CLASS.
+-->
+<plugin id="GENERATE NEW UUIDv4 HERE" 
+	    version="0.0.1"
+	    name="My Plugin" 
+	    license="MIT"
+	    mainClass="plugin.myplugin.MyExamplePlugin">
+	<!-- Contribs is required and lists your project contributors.  role can be anything you want, email is optional. -->
+	<contribs>
+		<!-- <contrib name="Anonymous-BCFED" role="coder bitch" email="anon@example.tld" /> -->
+	</contribs>
+	<!-- 
+		requiredTags is required, but can be left empty. 
+		Each <tag>value</tag> is a tag another plugin most provide before this plugin will load. 
+	-->
+	<requiresTags>
+		<!-- Examples: -->
+		<!--<tag>npc:gary-busey</tag>-->
+		<!--<tag>fetish:fluffy-tails</tag>-->
+		<!--<tag>rdbms:mysql</tag>-->
+	</requiresTags>
+	<!-- 
+		providesTags is required, but can be left empty. 
+		Each <tag>value</tag> is a small string representation of something this plugin provides. 
+		There are no format requirements, but it'd be nice if you stuck to category:name. :)
+	-->
+	<providesTags>
+		<!-- <tag>fetish:twerking</tag> -->
+	</providesTags>
+</plugin>
