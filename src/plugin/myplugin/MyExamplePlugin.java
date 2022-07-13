@@ -48,6 +48,8 @@ public class MyExamplePlugin extends BasePlugin {
 	@Override
 	public void onInitPerks() {
 		// Perk.addPerk("PERK_ID", new MyCoolPerk());
+		// You will also have to do things to the perk table.
+		// See com.lilithsthrone.game.character.effects.PerkManager
 	}
 
 	@Override
@@ -73,11 +75,6 @@ public class MyExamplePlugin extends BasePlugin {
 	@Override
 	public void onPluginsLoaded() {
 		// Called after all plugins are loaded.
-	}
-
-	@Override
-	public void addPerks(Set<AbstractPerk> providedPerks) {
-		// Add your own perks here.
 	}
 
 	@Override
