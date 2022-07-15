@@ -17,7 +17,7 @@ import com.lilithsthrone.modding.BasePlugin;
 
 /**
  * @author Anonymous-BCFED
- * @version 0.4.4.1
+ * @version 0.4.4.2
  */
 public class MyExamplePlugin extends BasePlugin {
 
