@@ -6,7 +6,7 @@ This folder is copied into `res/mods/$MODAUTHORID/` when you run `build.sh` or `
 
 ## License
 
-This mod and plugin are available to you under the Terms of the [LICENSE NAME](LINK TO LICENSE).
+This mod and plugin are available to you under the Terms of the [LICENSE NAME](LINK TO LICENSE) license agreement.
 
 ## Installing
 
@@ -23,10 +23,10 @@ You've done it correctly if the structure looks like this:
         └── [CHANGE ME]
             ├── LICENSE
             ├── plugins
-            │   └── [CHANGE ME].jar
+            │   └── something.jar
             └── README.md
 ```
 
 ## Usage
 
-TODO
+A description of how to use this mod in-game.

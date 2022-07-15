@@ -1,11 +1,11 @@
 *.class
 *.jar
+/.check-identity
+/.pre-commit-config.yaml
+/.selid-hooks/
 /bin/
 /dependency-reduced-pom.xml
-/lib/
-/target/.pre-commit-config.yaml
-.selid-hooks/
-deploy-for-testing.sh
-/target/
+/deploy-for-testing.sh
 /dist/
-/.pre-commit-config.yaml
+/lib/
+/target/
