@@ -7,13 +7,12 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 import com.lilithsthrone.game.character.GameCharacter;
-import com.lilithsthrone.game.character.effects.AbstractPerk;
 import com.lilithsthrone.game.character.fetishes.AbstractFetish;
 import com.lilithsthrone.game.character.npc.NPC;
 import com.lilithsthrone.game.inventory.enchanting.PossibleItemEffect;
+import com.lilithsthrone.game.sex.SexType;
 import com.lilithsthrone.modding.BasePlugin;
 
 /**
@@ -102,6 +101,14 @@ public class MyExamplePlugin extends BasePlugin {
 			List<AbstractFetish> availableFetishes) {
 		// TODO Auto-generated method stub
 		super.onGenerateDesiresAvailableFetishesFixup(character, availableFetishes);
+	}
+
+	@Override
+	public void onGenerateSexChoicesAddSexTypes(GameCharacter ctx, boolean resetPositioningBan, GameCharacter target,
+			List<SexType> request, Map<SexType, Integer> foreplaySexTypes, Map<SexType, Integer> mainSexTypes) {
+		// Adds SexTypes for generating SexChoices.
+		//addSexTypeWeighting(ctx, new SexType(SexParticipantType.NORMAL, SexAreaPenetration.FINGER, SexAreaOrifice.ANUS), target, request, foreplaySexTypes, 1);
+		//addSexTypeWeighting(ctx, new SexType(SexParticipantType.NORMAL, SexAreaPenetration.TONGUE, SexAreaOrifice.ANUS), target, request, foreplaySexTypes, 1);
 	}
 
 }

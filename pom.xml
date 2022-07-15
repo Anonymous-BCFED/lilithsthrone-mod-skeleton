@@ -5,6 +5,9 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Plugin Skeleton</name>
   <description>This is a simple skeleton around which one can build their own plugin for Lilith's Throne.</description>
+  <properties>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
